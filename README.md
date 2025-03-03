@@ -1,1 +1,1 @@
-This Landing-page Project will help me to improve all the knoledge that I'd been getting by TOP, starting with the basics of html, followed by CSS and make this project the first of many projects that ill make. # Landing-page-TOP
+This Landing-page Project will help me to improve all the knoledge that I'd been getting by TOP, starting with the basics of html, followed by CSS and make this project the first of many projects that I'll make it. # Landing-page-TOP
