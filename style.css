@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+    body {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    
+    
+    }
+
+    .header, .section-one, .section-two, .section-three, .section-four{
+        flex: 1;
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+
+    .header, .footer{
+        display: flex;
+        color: #F9F4F8;
+        background-color: #1F2937;  
+        padding: 48px; 
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 120px;
+        padding-right: 120px;
+
+    }
+
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 900;
+    }
+
+    .section-one{
+        color: #F9F4F8;
+        background-color: #1F2937;  
+        padding: 48px;  
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    .logo {
+        font-size: 24px;
+        color: #F9FAF8; 
+    }
+
+    .top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 80px;
+    }
+
+    ul{
+        display: flex;
+        list-style-type: none;
+        gap: 16px;
+    }
+
+    a{
+        text-decoration: none;
+        color: #F9F4F8;
+
+    }
+    
+    .title{
+        font-size: 48px;
+        font-weight: 900;
+        color: #F9F4F8;
+    }
+
+    .section-one{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        
+        
+    }
+    button  {
+        font-family: "Roboto", serif;
+        border: none;
+        border-radius: 8px;
+        background: #3882F6;
+        padding: 8px 16px;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+    .container{
+        margin-bottom: 16PX;
+        width: 500px;
+    }
+
+    .main_image{
+        max-width: 600px;
+    }
+
+    .section-two{
+        font-family: "Roboto", serif;
+        text-align: center;
+        padding: 48px;
+
+      }
+  
+      .coffee_selection{
+        height: 175px;
+        width: 175px;
+        border-radius: 15px;
+        border: 3px solid #121213;
+        
+        
+      }
+       
+      .title-2{
+        font-size: 36px;
+        color: #1F2937;
+        font-weight: 900;
+        margin-bottom: 32px;
+      }
+
+    
+      .header-2{
+
+        display: flex;
+        justify-content: center;
+        gap: 52px;
+      }
+  
+      .one{
+        max-width: 200px;
+      }
+
+      .section-three{
+        display: flex;
+        background-color: #E5E7EB;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 80px;
+        }
+
+        .quote-box{
+            padding-left: 500px;
+            padding-right: 500px;
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+        }
+        .quote{
+            font-size: 36px;
+            font-weight: 300;
+            font-style: italic;
+            color: #1f2937; 
+            margin: 0;
+            
+        }
+
+        .sub-quote{
+        margin: 0;
+        align-self: flex-end;
+        }
+
+        .section-four{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 120px;
+            padding-right: 120px;
+
+            
+        }
+
+        .modal{
+            background-color: #3882F6;
+            color: #F9FAF8;
+            border-radius: 10px;
+            display: flex;
+            padding: 48px;
+            margin: 48px;
+            flex: auto;
+            justify-content: space-between;
+
+        }
+
+        button {
+            cursor: pointer;
+            padding: 8px 16px;
+            border-radius: 8px;
+            border: 1px solid white;
+            color: white;
+          }
+    
